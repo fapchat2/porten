@@ -122,8 +122,7 @@
 
 </section>
 
-<img src="https://media.lpgenerator.ru/images/157195/veshalka.png#size_531x217" alt="" style="margin-left:21%;
-margin-bottom: -7%;">
+<img src="https://media.lpgenerator.ru/images/157195/veshalka.png#size_531x217" alt="" style="margin-left:21%; margin-bottom: -7%;">
 
 <section class="sec2 text-alignCenter">
 
