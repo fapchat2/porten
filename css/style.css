@@ -207,10 +207,10 @@ main .div1 a {
 }
 
 main article {
-	margin-right: 220px;
+	margin-right: 230px;
 	position: relative;
 	bottom: 50px;
-	float: right;
+	float: center;
 	text-align: right;
 	font-size: 24px;
 	border: 4px solid #a4d251;
@@ -253,6 +253,7 @@ main article pre {
 main img:nth-child(3) {
 	position: absolute;
 	right: 30%;
+	top: 30%;
 	z-index: 1;
 }
 
@@ -773,8 +774,8 @@ footer div span {
 	}
 }
 
-@media (max-width: 1190px),
-(max-height: 616px) {
+@media (max-width: 1290px),
+(max-height: 716px) {
 	/* slider */
 	#divSlick0 {
 		width: auto;
