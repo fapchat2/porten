@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" rel="stylesheet" />
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.12/dist/fancybox.css"/>
+
   </head>
 
   <body>
@@ -25,13 +28,12 @@
       <span><strong>ТОП</strong>МЕБЕЛЬ</span></div>
   </div>
 
+ <article >
+
  <div class="div1">
    <p>+38 071 (429) 39 06</p>
    <a href="#">Заказать звонок</a>
  </div>
-
- <img src="https://media.lpgenerator.ru/images/157195/shkafi-compressor.png#size_1397x654">
- <article >
    <h1>
      Индивидуальное изготовление
 <br>шкафов-купе для дома
@@ -42,20 +44,20 @@
 доставка и сборка
 заказа <strong>БЕСПЛАТНО</strong></pre>
 
-<a href="#sec0" class="swing text-alignCenter" id="cursorToBottom">↓</a>
+<a href="#sec0" class="swing text-alignCenter" id="cursorToBottom"><span>↓</span></a>
 
  </article>
 </main>
 
 
-<section class="sec0 font-size18px" id="sec0" >
-  <div class="div">
+<section class="sec0" id="sec0" >
+  <div>
   <h1 class="text-alignLeft">ОСТАВЬТЕ ЗАЯВКУ</h1>
   <h3 class="text-alignLeft">на бесплатный вызов замерщика для расчета стоимости вашего шкафа-купе</h3>
     <form name="f0" method="post"> <!--class="div1" -->
-      <input type="text" name="name0" placeholder="name">
-      <input type="email" name="email0" placeholder="email">
-      <input type="text" name="phone0" placeholder="phone">
+      <input type="text" name="name0" placeholder="ИМЯ">
+      <input type="email" name="email0" placeholder="ЕМЕЙЛ">
+      <input type="text" name="phone0" placeholder="ТЕЛЕФОН">
       <input type="submit" name="call0" class="first"  value="Вызвать замерщика">
     </form>
 </div>
@@ -78,7 +80,6 @@
   по дизайну, качеству,
   материалу и механизму
   изготовления шкафа</p>
-  <img src="https://media.lpgenerator.ru/images/157195/vosznak.png#size_66x66" alt="">
 
       </article>
       <article class="ar2">
@@ -170,44 +171,41 @@
 <section class="sec3">
 <article>
 
-<div class="div0">
   <h1><strong>Выгодное предложение!</strong></h1>
 <div class="div">Оставьте заявку до конца дня
 <br>и получите <strong>скидку 850 рублей</strong>
 <br>при заказе шкафа-купе</div>
   <p class="p"><strong>Торопитесь!</strong>
 <br><span>Количество заявок ограничено</span></p>
-<div class="grid text-alignCenter">
+<div class="flex text-alignCenter">
   <div>
-      <span id='time0' class="time">03</span>
-  <p>часов</p>
+      <span id='timeHours' class="time">03</span>
+  <p id="timeHoursText">часа</p>
     </div>
     <div >
-      <span id='time1' class="time">44</span>
-  <p>минут</p>
+      <span id='timeMinutes' class="time">44</span>
+  <p id="timeMinutesText">минуты</p>
     </div>
     <div >
-      <span id='time2' class="time">13</span>
-  <p>секунд</p>
+      <span id='timeSeconds' class="time">13</span>
+  <p id="timeSecondsText">секунд</p>
     </div>
-</div>
 </div>
 
 </article>
 
-<img src="https://media.lpgenerator.ru/images/157195/shkafakcii-compressor.png#size_353x472" class="cupboard">
 
 </section>
 
-<section class="sec0 font-size18px">
-  <div class="div">
+<section class="sec0">
+  <div>
 
   <h1>ОСТАВЬТЕ ЗАЯВКУ</h1>
   <h3>на бесплатный вызов замерщика для расчета стоимости вашего шкафа-купе</h3>
 <form name="f1" method="post"> <!--class="div1" -->
-    <input type="text" name="name1" placeholder="name">
-    <input type="email" name="email1" placeholder="email">
-    <input type="text" name="phone1" placeholder="phone">
+    <input type="text" name="name1" placeholder="ИМЯ">
+    <input type="email" name="email1" placeholder="ЕМЕЙЛ">
+    <input type="text" name="phone1" placeholder="ТЕЛЕФОН">
     <input type="submit" name="call1"  value="Вызвать замерщика">
 </form>
 </div>
@@ -263,23 +261,23 @@
 <h1>Портфолио</h1>
 <div class="div">
   <section>
-    <div class="div1">
+    <div class="div1" data-fancybox data-src="https://media.lpgenerator.ru/images/157195/bolkartinka5-compressor.jpg#size_1121x745">
 
     </div>
-    <div class="div2">
+    <div class="div2" data-fancybox data-src="https://media.lpgenerator.ru/images/157195/bolkartinka4-compressor.jpg#size_1121x745">
 
     </div>
-    <div class="div3">
+    <div class="div3" data-fancybox data-src="https://media.lpgenerator.ru/images/157195/bolkartinka3-compressor.jpg#size_1121x745">
 
         </div>
-        <div class="div4">
+        <div class="div4" data-fancybox data-src="https://media.lpgenerator.ru/images/157195/bolkartinka2-compressor.jpg#size_1121x745">
 
         </div>
-        <div class="div5">
+        <div class="div5" data-fancybox data-src="https://media.lpgenerator.ru/images/157195/bolkartinka1-compressor.jpg#size_1121x744">
 
             </div>
 
-            <div class="div6">
+            <div class="div6" data-fancybox data-src="https://media.lpgenerator.ru/images/157195/bolkartinka6-compressor.jpg#size_1121x745">
 
             </div>
   </section>
@@ -396,7 +394,7 @@
     </div>
 
   </div>
-  <div class = 'divSlick' id='divSlick0'><p class="font-size18px arrow left"><</p><p class="font-size18px arrow right">></p></div>
+  <div class = 'divSlick' id='divSlick0'><p class="arrow left"><</p><p class="arrow right">></p></div>
 
   </section>
 
@@ -413,7 +411,7 @@
   <div ><img src="https://media.lpgenerator.ru/images/157195/gramotabolshaya-compressor.jpg#size_703x542" alt=""></div>
   <div ><img src="https://media.lpgenerator.ru/images/157195/gramotabolshaya-compressor.jpg#size_703x542" alt=""></div>
 </div>
-<div class = 'divSlick' id='divSlick1'><p class="font-size18px arrow left1"><</p><p class="font-size18px arrow right1">></p></div>
+<div class = 'divSlick' id='divSlick1'><p class="arrow left1"><</p><p class="arrow right1">></p></div>
 
 <div style="overflow:hidden;width: 100%;position: relative;"><iframe src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Moscow%2C%20Russia+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width:100%; height: 100vh; overflow:hidden"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center; overflow:hidden"><small style="overflow:hidden; line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/it/" style='overflow:hidden'>embedgooglemaps IT</a> & <a href="https://iamsterdamcard.it">http://iamsterdamcard.it/</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
 
@@ -456,13 +454,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.12/dist/fancybox.umd.js"></script>
 
 
 <?php
 require_once "main.php";
 ?>
 
-     <script type="text/javascript" src="alert.js"></script> 
+     <script type="text/javascript" src="ajax.js"></script> 
 
      <script type="text/javascript" src="script.js"></script> 
 

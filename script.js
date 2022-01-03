@@ -24,13 +24,62 @@ $('.slider1').slick({
     $('.right').click(function() {
       $('.slider0').slick("slickNext");
     })
-    function startTimer(secs, display) {
+    function startTimer(secs) {
         var seconds = secs, date;
         setInterval(function () {
             date = new Date(seconds*1000);
-            time0.textContent = ("0" + date.getUTCHours()).slice(-2);
-            time1.textContent = ("0" + date.getMinutes()).slice(-2);
-            time2.textContent = ("0" + date.getSeconds()).slice(-2);
+            timeHours.textContent = ("0" + date.getUTCHours()).slice(-2);
+            timeMinutes.textContent = ("0" + date.getMinutes()).slice(-2);
+            timeSeconds.textContent = ("0" + date.getSeconds()).slice(-2);
+
+            if (timeMinutes.textContent % 10 == "1" && timeMinutes.textContent != "11") 
+            {
+              timeMinutesText.textContent = "минута";
+            }          
+            else if (timeMinutes.textContent != "12" 
+            && timeMinutes.textContent != "13" && timeMinutes.textContent != "14" &&
+            timeMinutes.textContent % 10 == "2" || timeMinutes.textContent % 10 == "3" 
+            ||timeMinutes.textContent % 10 == "4") 
+            {
+              timeMinutesText.textContent = "минуты";
+            }
+            else
+            {
+              timeMinutesText.textContent = "минут";
+            }
+
+
+
+            if (timeSeconds.textContent % 10 == "1" && timeSeconds.textContent != "11") 
+            {
+              timeSecondsText.textContent = "секунда";
+            }          
+            else if (timeSeconds.textContent != "12" 
+            && timeSeconds.textContent != "13" && timeSeconds.textContent != "14" &&
+            timeSeconds.textContent % 10 == "2" || timeSeconds.textContent % 10 == "3" 
+            ||timeSeconds.textContent % 10 == "4")
+            {
+              timeSecondsText.textContent = "секунды";
+            }
+            else
+            {
+              timeSecondsText.textContent = "секунд";
+            }
+
+
+
+            if (timeHours.textContent == "0") {
+              timeHoursText.textContent = "часов";
+            }
+            else if (timeHours.textContent == "1") 
+            {
+              timeHoursText.textContent = "час";
+            } 
+            else if (timeHours.textContent > 1)
+            {
+              timeHoursText.textContent = "часа";
+            }
+            
             if (--seconds < 0) {
                 seconds = secs;
             }
@@ -38,13 +87,12 @@ $('.slider1').slick({
     }
     
     window.onload = function () {
-        var fiveMinutes = 236 * 57,
-            display = document.querySelector('#time');
-        startTimer(fiveMinutes, display);
+        var fiveMinutes = 236 * 57;
+        startTimer(fiveMinutes);
     };
     
     for (let variable of document.querySelectorAll('.figure')) {
-      variable.onclick = function(event){
+      variable.onclick = function(){
         this.querySelector('.figure .figure__hover-content').style.opacity = '1';
         setTimeout(() => this.querySelector('.figure .figure__hover-content').style.opacity = '0', 1000);
       };
@@ -57,7 +105,7 @@ $('.slider1').slick({
           var hash = this.hash;
           $('html, body').animate({
             scrollTop: $(hash).offset().top
-          }, 1300, function(){
+          }, 400, function(){
             window.location.hash = hash;
           });
         } 

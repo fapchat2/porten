@@ -25,10 +25,11 @@ function mysqliSelect($connection, $select, $s, $txt, $email = NULL, $phone = NU
   $result = $stmt->get_result();
   global $userIsInDatabase;
   $userIsInDatabase = false;
+  
   if ($result->num_rows > 0) 
   {
-  swalConfirm($txt);
-  $userIsInDatabase = true;
+    swalConfirm($txt);
+    $userIsInDatabase = true;
   }
   $stmt->close();
 }
@@ -56,13 +57,10 @@ function mysqliInsert($connection, $insert, $s, $name = NULL, $email = NULL, $ph
 
 }
  
-// window.parent.scrollTo(window.pageXOffset, window.pageYOffset);
 function swalConfirm($txt)
 {
   ?>
   <script>
-       let Y = sessionStorage.getItem('Y');
-       window.parent.scrollTo(0, Y);
        let txt = "<?php echo $txt; ?>";
        Swal.fire({text: txt,
            confirmButtonColor: '#e31e35'})
