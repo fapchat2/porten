@@ -1,0 +1,13 @@
+
+/* sec8 */
+
+.sec8 {
+    overflow: hidden;
+}
+
+.sec8 h1 {
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

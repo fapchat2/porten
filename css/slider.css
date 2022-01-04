@@ -1,0 +1,153 @@
+
+/* slider */
+
+.slider {
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.slider0 {
+    width: 800px;
+}
+
+.slider1 {
+    width: 980px;
+}
+
+.slider1 img {
+    width: 300px;
+}
+
+.slider0 img {
+    margin: 30px;
+    float: left;
+}
+
+.slider0 article {
+    padding: 40px;
+}
+
+.slider0 article h2 {
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.arrow {
+    position: relative;
+    bottom: 194px;
+    background: grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: Gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.left,
+.left1 {
+    float: left;
+}
+
+.right,
+.right1 {
+    float: right;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    background: black;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+.divSlick {
+    position: relative;
+    margin: 0 auto;
+    user-select: none;
+
+}
+
+#divSlick0 {
+    width: 950px;
+}
+
+
+
+#divSlick1 {
+    width: 1050px;
+}
+
+
+/* media for slides */
+
+@media (max-width: 1210px) {
+
+    #divSlick0 {
+        width: auto;
+        margin: 0 7rem;         
+    }
+    #divSlick1 {
+        width: 600px;
+    }
+    .slider0 {
+        width: 460px;
+    }
+    .slider1 img {
+        width: 140px;
+    }
+    .slider1 {
+        width: 500px;
+    }
+    .left1, 
+    .right1 {
+        bottom: 100px;
+    }
+}
+
+
+
+
+@media (max-width: 850px) {
+    #divSlick0 {
+        margin: 0 2rem;
+    }
+}
+
+
+@media (max-width: 644px) {
+    .slider0 img {
+        width: 120px;
+    }
+
+    .slider0 {
+        width: 300px;
+        padding: 0;
+    }
+    .slider0 article {
+        padding: 10px;
+    }
+
+
+    .slider1 {
+        width: 360px;
+    }
+    
+    .slider1 img {
+        width: 100px;
+    }
+
+    .left1 {
+        right: 5px;
+    }
+    .sec7 article {
+        clear: both;
+    }
+    .arrow {
+        display: none;
+    }
+}

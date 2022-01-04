@@ -1,0 +1,107 @@
+
+
+.sec5 {
+    overflow: hidden;
+    background: rgb(230, 230, 225);
+}
+
+.sec5 h1 {
+    font-size: 5ch;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sec5 .div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.sec5 .div section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.sec5 .div section div {
+    width: 307px;
+    height: 203px;
+    border: 1px solid silver;
+}
+
+.sec5 .div section .div1 {
+    background: url(https://media.lpgenerator.ru/images/157195/bolkartinka5-compressor.jpg#size_1121x745)
+        center/cover no-repeat;
+    border-radius: 20px 0 0 0;
+}
+
+.sec5 .div section .div2 {
+    background: url(https://media.lpgenerator.ru/images/157195/bolkartinka4-compressor.jpg#size_1121x745)
+        center/cover no-repeat;
+}
+
+.sec5 .div section .div3 {
+    border-radius: 0 20px 0 0;
+    background: url(https://media.lpgenerator.ru/images/157195/bolkartinka3-compressor.jpg#size_1121x745)
+        center/cover no-repeat;
+}
+
+.sec5 .div section .div4 {
+    border-radius: 0 0 0 20px;
+    background: url(https://media.lpgenerator.ru/images/157195/bolkartinka2-compressor.jpg#size_1121x745)
+        center/cover no-repeat;
+}
+
+.sec5 .div section .div5 {
+    background: url(https://media.lpgenerator.ru/images/157195/bolkartinka1-compressor.jpg#size_1121x744)
+        center/cover no-repeat;
+}
+
+.sec5 .div section .div6 {
+    border-radius: 0 0 20px 0;
+    background: url(https://media.lpgenerator.ru/images/157195/bolkartinka6-compressor.jpg#size_1121x745)
+        center/cover no-repeat;
+}
+
+.sec5 .div section div:hover {
+    transform: scale(1.2);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+@media (max-width: 1290px), (max-height: 716px) {
+
+    /* sec5 */
+    .sec5 {
+        height: auto;
+    }
+    .sec5 .div section div {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+
+@media (max-width: 490px) {
+    .sec5 .div section div {
+        width: 100px;
+        height: 90px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .sec5 h1 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 3ch;
+    }
+    .sec5 .div {
+        margin: 20px 0;
+    }
+    .sec5 .div section div {
+        width: 75px;
+        height: 75px;
+    }
+}

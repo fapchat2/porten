@@ -1,0 +1,58 @@
+
+
+/* sec9 */
+
+.sec9 {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.sec9 .div0 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec9 .p0 {
+    margin-left: 2px;
+    position: relative;
+    bottom: 4px;
+    letter-spacing: 8px;
+    font-size: 13px;
+}
+
+.sec9 a {
+    -webkit-animation: swing 1.8s ease;
+    animation: swing 1.8s ease infinite;
+}
+
+.sec9 .div0 div {
+    margin-left: 14px;
+}
+
+.sec9 .div0 div span {
+    font-size: 21px;
+}
+
+.sec9 .div1 a {
+    color: rgb(255, 62, 14);
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 660px) {
+
+  
+    .sec9 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 25vh;
+    }
+    .sec9 .div0 {
+        position: relative;
+        right: 20px;
+    }
+}

@@ -1,0 +1,25 @@
+
+/* footer */
+
+footer {
+    overflow: hidden;
+    background: rgb(230, 221, 230);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div {
+    padding: 10px;
+}
+
+footer div span {
+    margin-left: 4px;
+}
+
+@media (max-width: 456px) {
+ 
+    footer {
+        height: 20vh;
+        flex-direction: column;
+    }
+}

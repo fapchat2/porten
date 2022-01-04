@@ -1,0 +1,14 @@
+
+/* sec7 */
+
+.sec7 {
+    overflow: hidden;
+    background: Gainsboro;
+}
+
+.sec7 h1 {
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

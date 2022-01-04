@@ -7,6 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/images.css">
+  <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/animation.css">
+
+  <!-- parts of the site -->
+  <link rel="stylesheet" href="css/parts of the site/main.css">
+  <link rel="stylesheet" href="css/parts of the site/footer.css">
+  <!-- secs -->
+  <link rel="stylesheet" href="css/parts of the site/secs/sec0.css">
+  <link rel="stylesheet" href="css/parts of the site/secs/sec1.css">
+  <link rel="stylesheet" href="css/parts of the site/secs/sec2.css">
+  <link rel="stylesheet" href="css/parts of the site/secs/sec3.css">
+  <link rel="stylesheet" href="css/parts of the site/secs/sec4.css">
+  <link rel="stylesheet" href="css/parts of the site/secs/sec5.css">
+  <link rel="stylesheet" href="css/parts of the site/secs/sec6.css">
+  <link rel="stylesheet" href="css/parts of the site/secs/sec7.css">
+  <link rel="stylesheet" href="css/parts of the site/secs/sec8.css">
+  <link rel="stylesheet" href="css/parts of the site/secs/sec9.css">
+  
+
+
+
+
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" rel="stylesheet" />
@@ -406,7 +430,7 @@
     </div>
     <div class='divSlick' id='divSlick0'>
       <p class="arrow left">
-        << /p>
+        <</p>
           <p class="arrow right">></p>
     </div>
 
@@ -427,7 +451,7 @@
     </div>
     <div class='divSlick' id='divSlick1'>
       <p class="arrow left1">
-        << /p>
+        <</p>
           <p class="arrow right1">></p>
     </div>
 

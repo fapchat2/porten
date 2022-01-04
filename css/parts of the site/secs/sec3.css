@@ -1,0 +1,86 @@
+
+/* sec3 */
+
+.sec3 {
+    overflow: hidden;
+}
+
+.sec3 article {
+    position: relative;
+    z-index: 0;
+    font-size: 25px;
+    border: 3px solid #a4d251;
+    border-radius: 8px;
+    width: 600px;
+    padding: 50px;
+    transform: translate(170px, 90px);
+    margin-top: -60px;
+    margin-bottom: 100px;
+}
+
+.sec3 .div {
+    margin-top: 30px;
+}
+
+.sec3 h1 {
+    font-size: 37px;
+}
+
+.sec3 .p {
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.sec3 .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    right: 13px;
+    top: 12px;
+}
+
+.sec3 .time {
+    font-size: 3ch;
+    color: #a4d251;
+    border: 2px solid #a4d251;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 13px;
+}
+
+.sec3 .flex p {
+    color: #a4d251;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.sec3 .cupboard {
+    z-index: 1;
+    position: relative;
+    margin-left: 530px;
+    bottom: 200px;
+    overflow: hidden;
+}
+
+
+@media (max-width: 660px) {
+
+    .sec3 article {
+        font-size: 16px;
+        transform: translate(20px, 70px);
+    }
+    .sec3 h1 {
+        font-size: 22px;
+    }}
+
+
+@media (max-width: 398px) {
+    .sec3 article {
+        padding: 30px 10px;
+        width: 500px;
+    }
+    .sec3 h1 {
+        font-size: 18px;
+    }
+}

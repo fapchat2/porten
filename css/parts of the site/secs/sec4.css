@@ -1,0 +1,180 @@
+
+/* .sec4 */
+
+.sec4 {
+    overflow: hidden;
+}
+
+.sec4 .figure__hover-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    opacity: 0;
+    background-size: cover;
+    transition: opacity 1s;
+}
+
+.sec4 h1 {
+    margin-top: 30px;
+    font-size: 5ch;
+}
+
+.sec4 .div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4 section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    overflow: hidden;
+}
+
+.sec4 section article {
+    border: 3px solid rgba(146, 209, 79, 0.8);
+    border-radius: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.sec4 .ar1 {
+    left: 135px;
+    top: 111px;
+}
+
+.sec4 .ar1,
+.sec4 .ar4 {
+    height: 210px;
+    width: 291px;
+}
+
+.sec4 .ar2,
+.sec4 .ar3 {
+    height: 321px;
+    width: 426px;
+}
+
+.sec4 .ar1,
+.sec4 .ar2,
+.sec4 .ar3,
+.sec4 .ar4 {
+    border: 2px solid rgb(255, 60, 0) !important;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    -moz-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    -o-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.sec4 .ar1:hover,
+.sec4 .ar2:hover,
+.sec4 .ar3:hover,
+.sec4 .ar4:hover {
+    cursor: pointer;
+    outline: 0;
+    box-shadow: 0 0 130px 130px rgb(255, 60, 0) inset;
+}
+
+.sec4 section p {
+    margin-top: 30px;
+}
+
+.sec4 .border {
+    border: 1px solid rgba(40, 45, 40, 0.5);
+    border-radius: 8px;
+    padding: 310px 360px;
+    width: 0px;
+    position: absolute;
+    transform: rotate(335deg);
+    z-index: -1;
+    margin-bottom: 200px;
+}
+
+.sec4 section img {
+    margin-bottom: 5px;
+}
+
+
+
+@media (max-width: 1290px), (max-height: 716px) {
+
+
+
+    /* sec4 */
+    .sec4 {
+        overflow: hidden;
+    }
+    .sec4 h1 {
+        font-size: 4ch;
+    }
+    .sec4 h2 {
+        font-size: 16px;
+    }
+    .sec4 .ar1 {
+        height: 100px;
+        width: 140px;
+        left: 70px;
+        top: 55px;
+    }
+    .sec4 .ar2 {
+        height: 156px;
+        width: 210px;
+    }
+    .sec4 .ar3 {
+        height: 156px;
+        width: 210px;
+    }
+    .sec4 .ar4 {
+        height: 100px;
+        width: 140px;
+    }
+    .sec4 section img {
+        width: 33px;
+    }
+/* shadow */
+    .sec4 .ar1:hover,
+    .sec4 .ar2:hover,
+    .sec4 .ar3:hover,
+    .sec4 .ar4:hover {
+        cursor: pointer;
+        outline: 0;
+        box-shadow: 0 0 70px 70px rgb(255, 60, 0) inset;
+    }
+}
+
+
+
+
+@media (max-width: 520px) {
+
+    /* sec4 */
+    .sec4 .ar2 {
+        display: none;
+    }
+}
+
+@media (max-width: 490px) {
+
+    .sec4 h1 {
+        font-size: 3ch !important;
+    }
+}
+
+
+@media (max-width: 456px) {
+ 
+    .sec4 .ar1 {
+        left: 0;
+        top: 0;
+    }
+}
