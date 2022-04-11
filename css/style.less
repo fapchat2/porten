@@ -15,7 +15,7 @@
 }
 body {
     overflow-x: hidden;
-    background: rgba(51, 51, 51, 1);
+    background: black;
     color: white;
     font-family: PT Sans;
     font-size: 12px;
@@ -376,6 +376,9 @@ header {
     }
     hr {
         width: 120px;
+        margin: auto;
+        position: relative;
+        top: 45px;
     }
     > div {
         display: flex;
@@ -426,5 +429,162 @@ header {
 }
 
 .our_brands {
-    background: #0F0F0F;
+    background: #0f0f0f;
+    overflow: hidden;
+    height: 355px;
+    h1 {
+        font-family: Playfair Display;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 60px;
+    }
+    hr {
+        width: 120px;
+        margin: auto;
+        margin-top: 43px;
+    }
+    > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 38px;
+        width: 57.5%;
+    }
+}
+
+.about_shop {
+    background: url(../images/about_shop/bcg.jpg);
+    overflow: hidden;
+
+    height: 400px;
+    > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        margin-top: 82px;
+        h1 {
+            font-family: Playfair Display;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            text-transform: uppercase;
+
+            font-weight: 400;
+        }
+        p {
+            font-family: PT Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-top: 40px;
+        }
+
+        a,
+        input[type="submit"] {
+            padding: 10px 20px;
+            background: black;
+            color: #d0d0d0;
+
+            font-family: PT Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+        }
+        input[type="submit"] {
+            letter-spacing: 0.03em;
+            position: relative;
+            right: 2px;
+        }
+        article {
+            width: 350px;
+            margin-right: 25px;
+
+            position: relative;
+            right: 4px;
+        }
+
+        nav {
+            width: 300px;
+            margin-right: 33px;
+
+            position: relative;
+
+            div {
+                display: flex;
+                flex-direction: row;
+                [href="#браслеты"],
+                [href="#ремни"],
+                [href="#запонки"] {
+                    margin-left: 20px;
+                }
+            }
+            > div:nth-of-type(1) {
+                margin-top: 40px;
+            }
+            > div:nth-of-type(2) {
+                margin-top: 20px;
+            }
+        }
+
+        form {
+            width: 355px;
+            margin-left: 38px;
+
+            position: relative;
+            left: 10px;
+
+            input[type="text"] {
+                background: rgba(255, 255, 255, 0.4);
+                color: #d0d0d0;
+                border: none;
+                width: 210px;
+                height: 42px;
+                padding-left: 14px;
+
+                margin-top: 38px;
+            }
+            input[type="text"]::placeholder {
+                color: #d0d0d0;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #0f0f0f;
+    height: 50px;
+    > div {
+        width: 58%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        margin: auto;
+        div:nth-of-type(1) {
+            font-family: PT Sans;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        div:nth-of-type(2) {
+            font-family: PT Sans;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: right;
+        }
+    }
 }
