@@ -562,7 +562,7 @@ footer {
     background-color: #0f0f0f;
     height: 50px;
     > div {
-        width: 58%;
+        width: 57%;
         height: 100%;
         display: flex;
         flex-direction: row;
@@ -587,4 +587,256 @@ footer {
             text-align: right;
         }
     }
+}
+
+@media (max-width: 1700px) {
+    .season_and_collection .season .wrapper-flex {
+        left: 0.5%;
+    }
+    .season_and_collection .season .wrapper-flex .img {
+        width: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            position: inherit;
+        }
+    }
+    .season_and_collection .season .wrapper-flex div:nth-of-type(1) {
+        margin-right: 5px;
+    }
+    .season_and_collection .season .wrapper-flex div:nth-of-type(3) {
+        margin-left: 5px;
+    }
+    .new_deliveries > div .flex,
+    .our_brands > div {
+        width: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .porten_0 > div,
+    header > div {
+        width: 96%;
+    }
+    .season_and_collection .season .wrapper-flex > div:nth-of-type(1),
+    .season_and_collection .season .wrapper-flex > div:nth-of-type(3) {
+        display: none;
+    }
+
+    .new_deliveries > div {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .new_deliveries > div .flex {
+        flex-direction: column;
+        h2,
+        h3 {
+            text-align: center;
+            margin-top: 5px;
+        }
+    }
+    .new_deliveries > div .flex:nth-last-of-type(2) {
+        float: left;
+    }
+
+    .new_deliveries > div .flex:nth-last-of-type(1) {
+        align-items: flex-end;
+        margin-bottom: 40px;
+    }
+    .new_deliveries > div .flex .img {
+        margin-top: 15px;
+    }
+    .new_deliveries h1 {
+        margin-top: 40px;
+    }
+
+    .our_brands {
+        height: 620px;
+        h1 {
+            margin-top: 40px;
+        }
+        > div {
+            margin-top: 20px;
+        }
+        hr {
+            margin-top: 22px;
+        }
+    }
+    .our_brands > div {
+        flex-direction: column;
+        align-items: center;
+        [src="images/our_brands/cocofine_jewel.png"] {
+            width: 300px;
+        }
+    }
+
+    .about_shop {
+        height: 630px;
+        background: #6e6b6c;
+        h1,
+        p {
+            text-align: center !important;
+        }
+    }
+    .about_shop > div {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .about_shop > div p {
+        margin-top: 15px;
+    }
+    .about_shop > div article {
+        margin-right: 0;
+        right: 0;
+    }
+    .about_shop > div nav {
+        margin-right: 0;
+        margin-top: 35px;
+    }
+    .about_shop > div nav > div:nth-of-type(1) {
+        margin-top: 15px;
+    }
+    .about_shop > div form {
+        margin-left: 0;
+        left: 0;
+        margin-top: 35px;
+    }
+    .about_shop > div form input[type="text"] {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 940px) {
+    header .log_reg {
+        float: none;
+        margin: auto;
+    }
+    header [src="images/header/phone.svg"] {
+        display: none;
+    }
+
+    .porten_0 {
+        height: auto;
+    }
+    .porten_0 a {
+        padding: 20px 20px;
+    }
+
+    .porten_0 > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .porten_0 h1 {
+        position: inherit;
+        text-align: center;
+    }
+    .porten_0 > div > div {
+        width: 100%;
+        float: none;
+        position: inherit;
+    }
+
+    .porten_0 > div > div div:nth-child(1) {
+        float: none;
+        height: auto;
+        position: inherit;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .porten_0 > div > div .basket_and_search {
+        float: none;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .photo_and_collection .collection article p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 745px) {
+    .porten_1 article {
+        width: auto;
+    }
+    .season_and_collection .season h1,
+    .season_and_collection .collection div h1 {
+        font-size: 20px;
+    }
+    .season_and_collection .season .wrapper-flex h2,
+    .season_and_collection .season .wrapper-flex h3 {
+        text-align: center;
+    }
+    .photo_and_collection .collection article {
+        margin-top: 20px;
+    }
+    .photo_and_collection .collection article hr,
+    .photo_and_collection .collection article p,
+    .photo_and_collection .collection article a {
+        margin-top: 15px;
+    }
+    .photo_and_collection .collection article h1 {
+        font-size: 20px;
+    }
+
+    .new_deliveries > div .flex:nth-last-of-type(2) {
+        align-items: center;
+        float: none;
+    }
+    .new_deliveries > div .flex:nth-last-of-type(1) {
+        align-items: center;
+    }
+}
+
+@media (max-width: 380px) {
+    .season_and_collection .season,
+    .season_and_collection .collection {
+        overflow: hidden;
+    }
+    .photo_and_collection .collection {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .photo_and_collection {
+        display: block;
+        height: auto;
+    }
+
+    .photo_and_collection .photo {
+        display: none;
+    }
+    .new_deliveries h1 {
+        font-size: 22px;
+    }
+    .about_shop {
+        height: auto;
+    }
+    .about_shop > div article,
+    .about_shop > div nav,
+    .about_shop > div form {
+        width: auto;
+    }
+    .about_shop > div form {
+        display: flex;
+flex-direction: column;
+align-items: center;
+    }
+    .about_shop > div form input[type="text"],
+    .about_shop > div input[type="submit"] {
+        width: 94%;
+        
+    }
+    .about_shop > div input[type="submit"] {
+        right: 0;
+
+    }
+
+
+
+    
 }
