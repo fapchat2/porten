@@ -1,0 +1,430 @@
+@font-face {
+    font-family: "Post No Bills Jaffna Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Post No Bills Jaffna Bold"),
+        url("../fonts/post-no-bills-jaffna-cufonfonts-webfont/PostNoBillsJaffna-Bold.woff")
+            format("woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background: rgba(51, 51, 51, 1);
+    color: white;
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+input[type="submit"],
+button {
+    border: none;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    color: #969696;
+    background-color: black;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+
+    > div {
+        width: 58%;
+        margin: auto;
+        > div:nth-child(1) {
+            float: left;
+        }
+    }
+
+    [src="images/header/phone.svg"] {
+        width: 13.36px;
+        height: 13.33px;
+        float: left;
+        margin-right: 16.5px;
+    }
+    .numbers,
+    .log_reg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .numbers {
+        width: 355px;
+    }
+    .log_reg {
+        width: 130px;
+        float: right;
+    }
+}
+
+.porten_0 {
+    background-color: #0f0f0f;
+    overflow: hidden;
+    height: 80px;
+    h1 {
+        font-family: "Post No Bills Jaffna Bold";
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-transform: uppercase;
+        float: left;
+
+        position: relative;
+        top: 16px;
+    }
+    a {
+        font-family: PT Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-transform: uppercase;
+
+        padding: 31px 20px;
+    }
+    a:hover {
+        color: white;
+        background: #1f1f1f;
+    }
+    > div {
+        width: 58%;
+        margin: auto;
+    }
+
+    > div > div {
+        float: right;
+        position: relative;
+        left: 15px;
+        div:nth-child(1) {
+            float: left;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 80px;
+            width: 453px;
+
+            position: relative;
+            left: 19px;
+        }
+        .basket_and_search {
+            float: right;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 80px;
+        }
+    }
+}
+
+.porten_1 {
+    background: url(../images/porten_1/bcg.png) center no-repeat;
+    background-size: cover;
+    height: 810px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    div {
+        border: 4px solid #ffffff;
+        padding: 89px 60px;
+        padding-bottom: 111px;
+        margin-bottom: 74px;
+        h1 {
+            font-family: "Post No Bills Jaffna Bold";
+            font-size: 64px;
+            font-weight: 700;
+            background-clip: content-box;
+        }
+        h1::after {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #fff;
+            content: "";
+            margin-top: -16px;
+        }
+        h2 {
+            font-family: PT Sans;
+            font-size: 22px;
+            font-weight: 400;
+            text-transform: uppercase;
+            position: relative;
+            top: 5px;
+        }
+    }
+    article {
+        width: 726px;
+        font-family: PT Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-transform: uppercase;
+
+        position: relative;
+        top: 7px;
+    }
+}
+
+.season_and_collection {
+    height: 730px;
+    display: flex;
+    flex-direction: row;
+
+    .season {
+        height: 730px;
+        width: 54%;
+        background-color: black;
+        h1 {
+            font-family: "Playfair Display", serif;
+            font-size: 36px;
+            line-height: 42px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-top: 95px;
+        }
+        hr {
+            width: 120px;
+            margin: auto;
+            margin-top: 50px;
+            position: relative;
+            top: -6px;
+        }
+        .wrapper-flex {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            position: relative;
+            left: 14px;
+            bottom: 6px;
+            .img {
+                background: #191b1c;
+                width: 260px;
+                height: 325px;
+                display: flex;
+                align-items: center;
+                img {
+                    position: relative;
+                    left: 20px;
+                }
+            }
+            h2 {
+                font-family: "Playfair Display", serif;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-top: 25px;
+            }
+            h3 {
+                font-family: "Playfair Display", serif;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-top: 15px;
+            }
+            div:nth-of-type(1) {
+                margin-right: 25px;
+            }
+            div:nth-of-type(3) {
+                margin-left: 25px;
+            }
+        }
+    }
+    .collection {
+        height: 730px;
+        width: 46%;
+        background: url(../images/collection/bcg.png) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        text-transform: uppercase;
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 488px;
+            h1 {
+                font-family: "Playfair Display", serif;
+                font-size: 36px;
+                line-height: 42px;
+                letter-spacing: 0em;
+                text-align: center;
+            }
+            hr {
+                width: 120px;
+                margin-top: 21px;
+            }
+            [href="#catalogue"] {
+                font-family: PT Sans;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 23px;
+                letter-spacing: 0.1em;
+                text-align: center;
+                margin-top: 28px;
+
+                border: 1px solid #ffffff;
+                padding: 12px 28px;
+            }
+        }
+    }
+}
+.photo_and_collection {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+
+    .photo {
+        width: 46%;
+        height: 600px;
+        background: url(../images/just_bcg/bcg.jpg) no-repeat;
+        background-size: cover;
+    }
+    .collection {
+        background: black;
+        width: 54%;
+        height: 600px;
+
+        article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 103px;
+            h1 {
+                font-family: Playfair Display;
+                font-size: 36px;
+                line-height: 42px;
+                letter-spacing: 0em;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            hr {
+                width: 120px;
+                margin-top: 33px;
+            }
+            p {
+                width: 471px;
+                font-family: PT Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: center;
+                margin-top: 40px;
+            }
+
+            a {
+                font-family: "PT Sans";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                text-align: center;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+
+                border: 1px solid #ffffff;
+                padding: 12px 28px;
+
+                margin-top: 64px;
+            }
+        }
+    }
+}
+
+.new_deliveries {
+    background: black;
+    overflow: hidden;
+    h1 {
+        text-align: center;
+        margin-top: 120px;
+
+        font-family: Playfair Display;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-transform: uppercase;
+    }
+    hr {
+        width: 120px;
+    }
+    > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 127px;
+        .flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            width: 57.5%;
+
+            h2 {
+                font-family: "Playfair Display", serif;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-top: 25px;
+            }
+            h3 {
+                font-family: "Playfair Display", serif;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-top: 15px;
+            }
+            .img {
+                background: #191b1c;
+                width: 260px;
+                height: 325px;
+                display: flex;
+                align-items: center;
+                img {
+                    position: relative;
+                    left: 20px;
+                }
+            }
+        }
+
+        .flex:nth-last-of-type(1) {
+            margin-top: 40px;
+            margin-bottom: 150px;
+        }
+    }
+}
+
+.our_brands {
+    background: #0F0F0F;
+}
