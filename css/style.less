@@ -74,6 +74,9 @@ header {
         width: 130px;
         float: right;
     }
+    a:hover {
+        color: rgb(255, 255, 194);
+    }
 }
 
 .porten_0 {
@@ -102,6 +105,9 @@ header {
         text-transform: uppercase;
 
         padding: 31px 20px;
+
+        transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
+
     }
     a:hover {
         color: white;
@@ -761,7 +767,9 @@ footer {
 
     .photo_and_collection .collection article p {
         width: 100%;
+        padding: 0 10px;
     }
+
 }
 
 @media (max-width: 745px) {
@@ -779,10 +787,14 @@ footer {
     .photo_and_collection .collection article {
         margin-top: 20px;
     }
+
+
     .photo_and_collection .collection article hr,
-    .photo_and_collection .collection article p,
-    .photo_and_collection .collection article a {
+    .photo_and_collection .collection article p{
         margin-top: 15px;
+    }
+    .photo_and_collection .collection article a {
+        margin: 15px;
     }
     .photo_and_collection .collection article h1 {
         font-size: 20px;
@@ -795,6 +807,8 @@ footer {
     .new_deliveries > div .flex:nth-last-of-type(1) {
         align-items: center;
     }
+
+
 }
 
 @media (max-width: 380px) {
@@ -841,7 +855,9 @@ align-items: center;
 
     }
 
-
+.about_shop > div article {
+    padding: 0 15px;
+}
 
     
 }
